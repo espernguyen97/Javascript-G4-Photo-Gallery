@@ -150,3 +150,48 @@ a:active {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Changes made by Corey start */
+
+.aboutUsBg{
+  background-image: url("/images/mainbg.jpg");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.aboutUsHeader{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px;
+  padding: 150px;
+}
+
+.aboutUsPara{
+  padding: 40px;
+  padding-bottom: 45px;
+  text-align: center;
+  font-size: 29px;
+  background-color: antiquewhite;
+  opacity: 0.8;
+  
+}
+.paraLogo{
+  padding-bottom: 55px;
+}
+
+a.paraLink{
+  color: #020202;
+  text-decoration: underline;
+}
+a.paraLink:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+/* Changes made by Corey end */
+
+
+
+
