@@ -67,6 +67,26 @@ a:active {
   position: relative;
 }
 
+.heroImgGal {
+  background-image: url(images/forest/u7.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroTxt {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #e5e0e0;
+  font-size: 45px;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+}
+
 .heroTxt {
   text-align: left;
   position: absolute;
