@@ -24,7 +24,7 @@ nav {
   text-transform: uppercase;
   width: 50%;
   margin-left: 70px;
-  margin-top: 12px;
+  margin-top: 17px;
   font-size: 12px;
   letter-spacing: 0.9px;
   color: #e5e0e0;
@@ -57,6 +57,36 @@ a:hover {
 a:active {
   text-decoration: red;
 }
+
+input {
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  border: none;
+  float: left;
+}
+button:hover {
+  background: #ccc;
+}
+
+button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-left: none;
+  margin-right: none;
+  margin-bottom: 15px;
+  background: #ddd;
+  font-size: 10px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+
 
 .heroImg {
   background-image: url(images/forest/u7.jpg);
