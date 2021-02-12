@@ -1,15 +1,16 @@
 
-var i = 0; //start point
+var i = 0; //start point //
 var images = [];
-var time = 4000;
+var time = 3000; 
 
-//image list
+// image list //
 
-images[0] = "image 1.jpg";
-images[1] = "image 2.jpg";
-images[2] = "image 3.jpg";
+images[0] = "images/homepage/u7.jpg";
+images[1] = "images/homepage/u5.jpg";
+images[2] = "images/homepage/u6.jpg";
 
-// change image
+
+// change image //
 function changeImg(){
     document.slide.src = images[i];
 
@@ -22,4 +23,7 @@ function changeImg(){
      setTimeout("changeImg()", time);
 }
 
+
     window.onload = changeImg;
+
+    

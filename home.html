@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
- 
 
     </head>
     <body>
@@ -33,40 +32,14 @@
         
         <div class="heroImg">
             
-            <!--Script for Hero Image Slideshow start-->
-            <script class="heroImg">
-                var i = 0; //start point
-                var images = [];
-                var time = 3000;
-    
-                //image list
-    
-                images[0] = "images/homepage/u7.jpg";
-                images[1] = "images/homepage/u6.jpg";
-                images[2] = "images/homepage/u5.jpg";
-                images[3] = "images/homepage/u1.jpg";
-    
-                // change image
-                function changeImg(){
-                    document.slide.src = images[i];
-    
-                    if (i < images.length - 1){
-                        i++;
-                    } else {
-                        i = 0;
-                    }
-    
-                    setTimeout("changeImg()", time);
-                }
-    
-                    window.onload = changeImg;
-    
-            </script>
-            <!--Script for Hero Image Slideshow end-->
+            <!-- Script for Hero Image Slideshow -->
+            <script src="slideShow.js"></script>
+            <!-- Script for Hero Image Slideshow -->
+            
+            <!--Define images size/class selector for slideshow-->
+            <img class="slide" name="slide" height="800px" width="1900px">
+            <!--Define images size/class selector for slideshow-->
 
-
-            <!--Define images size for slideshow-->
-            <img name="slide" height="800px" width="1900px">
 
             <div class="heroTxt">
                 <div class="mainTitle1">cross</div>
