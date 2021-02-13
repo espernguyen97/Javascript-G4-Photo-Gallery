@@ -166,6 +166,29 @@ a:active {
   text-decoration: underline;
   font-size: 36px;
   padding: 150px;
+  animation-name: letterspace;
+  animation-duration: 3.6s;
+}
+
+@keyframes letterspace{
+  from{opacity: 0;}
+  to{opacity: 1;}
+  from{letter-spacing: -37px;}
+  to{letter-spacing: 0px;}
+}
+
+.aboutUsParabg{
+  background-color: rgb(245, 234, 218);
+  padding: 40px;
+  padding-bottom: 45px;
+  opacity: 0.8;
+  animation-name: bgslide;
+  animation-duration: 2.2s;
+}
+
+@keyframes bgslide{
+  from{opacity: 0;}
+  to{opacity: 0.8;}
 }
 
 .aboutUsPara{
@@ -173,12 +196,19 @@ a:active {
   padding-bottom: 45px;
   text-align: center;
   font-size: 29px;
-  background-color: antiquewhite;
-  opacity: 0.8;
+  opacity: 1;
+  animation-name: fade;
+  animation-duration: 4s;
   
 }
 .paraLogo{
   padding-bottom: 55px;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+@keyframes fade{
+  from{opacity: 0;}
+  to{opacity: 1;}
 }
 
 a.paraLink{
