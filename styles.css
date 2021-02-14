@@ -67,8 +67,22 @@ a:active {
   position: relative;
 }
 
-.heroImgGal {
+.heroImgGalMou {
   background-image: url(/images/mountain/u114.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalFor {
+  background-image: url(/images/forest/u7.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
