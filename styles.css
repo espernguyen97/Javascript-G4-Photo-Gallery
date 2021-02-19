@@ -59,7 +59,7 @@ a:active {
 }
 
 .heroImg {
-  background-image: url(images/forest/u7.jpg);
+  background-image: url(/images/forest/u7.jpg);
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -95,15 +95,183 @@ a:active {
   text-shadow: 0 0 4px black;
 }
 
-.heroTxt {
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: #e5e0e0;
-  font-size: 45px;
-  text-transform: uppercase;
-  transform: translate(-50%, -50%);
+.heroImgGalOce {
+  background-image: url(/images/ocean/pierre-leverrier-k0Ynnf2CbKw-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalAut {
+  background-image: url(/images/autumn/sebastian-unrau-CoD2Q92UaEg-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalVal {
+  background-image: url(/images/valley/jamie-hagan-RWzPBcWVdpw-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalSno {
+  background-image: url(/images/snow/wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalFar {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalSun {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+.heroImgGalPra {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+.heroImgGalUrb {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+.heroImgGalPeo {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalWat {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalNig {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalPla {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalAni {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
 }
 
 .heroTxt {
@@ -156,7 +324,8 @@ a:active {
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 14.2vw);
+  grid-auto-rows: 14.2vw;
+  /*grid-template-rows: repeat(3, 14.2vw);*/
   grid-gap: 8px;
 }
 
