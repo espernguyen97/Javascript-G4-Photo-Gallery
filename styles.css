@@ -152,7 +152,7 @@ a:active {
 }
 
 .heroImgGalFar {
-  background-image: url(/images/forest/u7.jpg);
+  background-image: url(/images/farm/alex-wigan-0xO65I5N6Vw-unsplash.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -166,88 +166,7 @@ a:active {
 }
 
 .heroImgGalSun {
-  background-image: url(/images/forest/u7.jpg);
-  height: 350px;
-  width: 75%;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-shadow: 0 0 4px black;
-}
-.heroImgGalPra {
-  background-image: url(/images/forest/u7.jpg);
-  height: 350px;
-  width: 75%;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-shadow: 0 0 4px black;
-}
-.heroImgGalUrb {
-  background-image: url(/images/forest/u7.jpg);
-  height: 350px;
-  width: 75%;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-shadow: 0 0 4px black;
-}
-.heroImgGalPeo {
-  background-image: url(/images/forest/u7.jpg);
-  height: 350px;
-  width: 75%;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-shadow: 0 0 4px black;
-}
-
-.heroImgGalWat {
-  background-image: url(/images/forest/u7.jpg);
-  height: 350px;
-  width: 75%;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-shadow: 0 0 4px black;
-}
-
-.heroImgGalNig {
-  background-image: url(/images/forest/u7.jpg);
-  height: 350px;
-  width: 75%;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-shadow: 0 0 4px black;
-}
-
-.heroImgGalPla {
-  background-image: url(/images/forest/u7.jpg);
+  background-image: url(/images/sunset/pexels-sasha-martynov-1212600.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -261,7 +180,7 @@ a:active {
 }
 
 .heroImgGalAni {
-  background-image: url(/images/forest/u7.jpg);
+  background-image: url(/images/animals/pexels-theother-kev-2264552.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -312,7 +231,7 @@ a:active {
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 25vw);
+  grid-template-rows: repeat(3, 25vw);
   grid-gap: 8px;
 }
 
