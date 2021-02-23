@@ -50,7 +50,7 @@ function validate()
         // Check if e-mail is correct
         else if (i == 3)
         {
-            let validMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            let validMail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]{2,})$/;
             if (input[3].match(validMail))
             {
                 document.getElementById(errId[3]).innerHTML = "";
