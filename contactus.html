@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="validation.js"></script>
 </head>
 
 <body>
@@ -41,22 +42,28 @@
     <section class="contactbox">
         <form>
             <label for="fname">First Name</label>
-            <input class="contactform" type="text" id="fname" name="firstname" placeholder="Your name" required>
+            <input class="contactform" type="text" id="fname" onkeyup="validate();" placeholder="Your name">
+            <span style="color:red" id="errFname"></span><br><br>
 
             <label for="lname">Last Name</label>
-            <input class="contactform" type="text" id="lname" name="lastname" placeholder="Your last name" required>
+            <input class="contactform" type="text" id="lname" onkeyup="validate();" placeholder="Your last name">
+            <span style="color:red" id="errLname"></span><br><br>
 
             <label for="phone">Phone Number</label>
-            <input class="contactform" type="tel" id="phone" name="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="555 123 1234" required>   
+            <input class="contactform" type="tel" id="phone" onkeyup="validate();" placeholder="5551231234">   
+            <span style="color:red" id="errPnumber"></span><br><br>
 
             <label for="email">Email</label>
-            <input class="contactform" type="email" id="email" name="email" placeholder="Your e-mail address" required>
+            <input class="contactform" type="email" id="email" onkeyup="validate();" placeholder="Your e-mail address">
+            <span style="color:red" id="errEmail"></span><br><br>
 
             <label for="subject">Comments</label>
-            <textarea class="contactform" id="subject" name="subject" placeholder="Enter your comments" required></textarea>
+            <textarea class="contactform" id="subject" placeholder="Enter your comments" onkeyup="validate();"></textarea>
+            <span style="color:red" id="errComment"></span><br><br>
 
-            <input class="contactsubmit" type="submit" value="Submit">
+            <input class="contactsubmit" type="submit" id="submit" value="Submit" onkeyup="validate();finalCheck();">
             <input class="contactreset" type="reset" value="Reset">
+            <span style="color:red" id="errSubmit"></span><br><br>
         </form>
     </section>
 
