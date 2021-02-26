@@ -59,12 +59,138 @@ a:active {
 }
 
 .heroImg {
-  background-image: url(images/forest/u7.jpg);
+  background-image: url(/images/forest/u7.jpg);
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.heroImgGalMou {
+  background-image: url(/images/mountain/u114.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalFor {
+  background-image: url(/images/forest/u7.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalOce {
+  background-image: url(/images/ocean/pierre-leverrier-k0Ynnf2CbKw-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalAut {
+  background-image: url(/images/autumn/sebastian-unrau-CoD2Q92UaEg-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalVal {
+  background-image: url(/images/valley/jamie-hagan-RWzPBcWVdpw-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalSno {
+  background-image: url(/images/snow/wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalFar {
+  background-image: url(/images/farm/alex-wigan-0xO65I5N6Vw-unsplash.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalSun {
+  background-image: url(/images/sunset/pexels-sasha-martynov-1212600.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
+}
+
+.heroImgGalAni {
+  background-image: url(/images/animals/pexels-theother-kev-2264552.jpg);
+  height: 350px;
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0 0 4px black;
 }
 
 .heroTxt {
@@ -92,6 +218,11 @@ a:active {
   margin-top: 30px;
 }
 
+.mainTitleGal {
+  letter-spacing: 16.5px;
+  margin-bottom: 30px;
+}
+
 .categories {
   width: 75%;
   margin-right: auto;
@@ -100,7 +231,20 @@ a:active {
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 25vw);
+  grid-template-rows: repeat(3, 25vw);
+  grid-gap: 8px;
+}
+
+.gallery {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 14.2vw;
+  /*grid-template-rows: repeat(3, 14.2vw);*/
   grid-gap: 8px;
 }
 
@@ -113,6 +257,96 @@ a:active {
 .categoryImg img:hover {
   filter: brightness(50%);
   transition: filter 0.5s ease;
+}
+
+.galleryPreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.galleryPreview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: all;
+}
+
+.galleryPreview img:hover {
+  filter: brightness(50%);
+  transition: filter 0.5s ease;
+}
+
+.galleryModal {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.2s ease-out;
+}
+
+.galleryModal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.imgTitle {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  font-weight: bolder;
+  transform: translate(-50%);
+}
+
+.imgCaption {
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.closeButton {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  transform: translate(-50%);
+}
+
+.closeButton:hover {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  transform: translate(-50%, -15%);
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+}
+
+.modalFullImg {
+  position: absolute;
+  height: 80%;
+  max-width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: all 0.25s ease-out;
+  object-fit: contain;
+}
+
+.modalFullImg.open {
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .catDesc {
