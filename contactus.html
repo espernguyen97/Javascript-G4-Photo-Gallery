@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <meta name="description" content="Photo Gallery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/plant.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="validation.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Menu START-->
+    <nav>
+        <ul class="nav-links">
+            <li>
+                <a href="home.html">Gallery</a>
+            </li>
+            <li>
+                <a href="#About">About</a>
+            </li>
+            <li>
+                <a href="contactus.html">Contact</a>
+                <img id="underline" src="images/u48.svg">
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Contact Us Form-->
+
+    <section class="contactheading">
+        <h1>Contact Us</h1>
+        <br>
+        <p> Please use the form below to contact the administrator with any of your questions or comments.</p>
+    </section>
+
+    <section class="contactbox">
+        <form>
+            <label for="fname">First Name</label>
+            <input class="contactform" type="text" id="fname" onkeypress="validate();" placeholder="Your name" required>
+            <span style="color:red" id="errFname"></span><br><br>
+
+            <label for="lname">Last Name</label>
+            <input class="contactform" type="text" id="lname" onkeypress="validate();" placeholder="Your last name" required>
+            <span style="color:red" id="errLname"></span><br><br>
+
+            <label for="phone">Phone Number</label>
+            <input class="contactform" type="tel" id="phone" onkeypress="validate();" placeholder="5551231234" required>   
+            <span style="color:red" id="errPnumber"></span><br><br>
+
+            <label for="email">Email</label>
+            <input class="contactform" type="email" id="email" onkeypress="validate();" placeholder="Your e-mail address" required>
+            <span style="color:red" id="errEmail"></span><br><br>
+
+            <label for="subject">Comments</label>
+            <textarea class="contactform" id="subject" placeholder="Enter your comments" onkeypress="validate();" required></textarea>
+            <span style="color:red" id="errComment"></span><br><br>
+
+            <input class="contactsubmit" type="submit" id="submit" value="Submit">
+            <input class="contactreset" type="reset" value="Reset">
+            <span style="color:red" id="errSubmit"></span><br><br>
+        </form>
+    </section>
+
+    <div class="footerImg">
+        <!--image added via CSS-->
+    </div>
+    <footer>
+        <div class="footerBar">
+            <div class="footerTxt">
+                &#169; Cross Canada Views 2021
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
