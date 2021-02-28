@@ -1,52 +1,202 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Login</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homepage</title>
+    <meta name="description" content="Photo Gallery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="./images/plant.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
     <!-- Navigation Menu START-->
     <nav>
-        <ul class="nav-links">
-            <li>
-                <a href="home.html">Gallery</a>
-                <img id="underline" src="images/u48.svg">
-            </li>
-            <li>
-                <a href="aboutus.html">About</a>
-                <img id="underline" src="images/u48.svg">
-            </li>
-            <li>
-                <a href="contactus.html">Contact</a>
-                <img id="underline" src="images/u48.svg">
-            </li>
-            <li>
-                <a href="login.html">Login</a>
-                <img id="underline" src="images/u48.svg">
-            </li>
-        </ul>
+    <ul class="nav-links">
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+        <section class="dropdown-content">
+            <a href="#">Mountain</a>
+            <a href="#">Forest</a>       
+            <a href="#">Ocean</a>
+            <a href="#">Autumn</a>
+            <a href="#">Valley</a>
+            <a href="#">Snow</a>
+            <a href="#">Farm</a>
+            <a href="#">Sunset</a>
+            <a href="#">Prairie</a>
+            <a href="#">Urban</a>
+            <a href="#">People</a>
+            <a href="#">Sunset</a>
+            <a href="#">Waterfall</a>
+            <a href="#">Night</a>
+            <a href="#">Plant</a>
+            <a href="#">Animal</a>
+        </section>
+        </li>
+        <section class="aboutUs"></section>
+        <li><a href="aboutus.html" target="_blank">About</a></li>
+        <li><a href="contactus.html" target="_blank">Contact</a></li>
+        <li><a href="login.html" target="_blank">Log InIn</a></li>
+    </ul>
     </nav>
-</head>
-<body>
-    <!-- Login Form-->
-        <form id="login-form">
-        <h1 id="login-header">Login</h1>
-        <br>
-        <section id="login-container">
-            <label for="username"><b>Username</b></label>
-            <input type="loginText" name="username" placeholder="Username" required>
-            <br>
-            <label for="psw"><b>Password</b></label>
-            <input type="loginText" name="psw" placeholder="Password" required>
-            <label>
-                <input type="checkbox" checked="checked" name="remember" float>&nbspRemember Me</label>
-            </label>
+    <style>
+         ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          
+        li {
+            float: left;
+          }
+        li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+          }
+          
+        li.dropdown {
+            display: inline-block;
+          }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+        .dropdown:hover .dropdown-content {
+            display: block
+        }
+    </style>
+    <!-- Navigation Menu END-->
+
+    <section class="heroImg">
+        <section class="heroTxt">
+            <div class="mainTitle1">cross</div>
+            <div class="mainTitle2">canada</div>
+            <div class="mainTitle3">views</div>
         </section>
-        <button type="button" class="loginButton"><b>Log In</b></button>
-        <section class="formButton">
-            <button type="button" class="cancelButton">Cancel</button>
-            <span class="psw"></span>
-            <a href="login.html">&nbspForget Your Password?</a>
-        </section>
-    </form>
+    </section>
+
+
+    <section class="categories">
+        <!--Row 1-->
+        <article class=categoryImg>
+            <a href="#mountain">
+                <img class="categoryImg" src="./images/homepage/u10.jpg">
+                <div class="catDesc">mountain</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#forest">
+                <img class="categoryImg" src="./images/homepage/u14.jpg">
+                <div class="catDesc">forest</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#ocean">
+                <img class="categoryImg" src="./images/homepage/u16.jpg">
+                <div class="catDesc">ocean</div>
+            </a>
+        </article>
+        <!--Row 2-->
+        <aritcle class=categoryImg>
+            <a href="#autumn">
+                <img class="categoryImg" src="./images/homepage/u18.jpg">
+                <div class="catDesc">autumn</div>
+            </a>
+        </aritcle>
+        <article class=categoryImg>
+            <a href="#valley">
+                <img class="categoryImg" src="./images/homepage/u19.jpg">
+                <div class="catDesc">valley</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#snow">
+                <img class="categoryImg" src="./images/homepage/u20.jpg">
+                <div class="catDesc">snow</div>
+            </a>
+        </article>
+        <!--Row 3-->
+        <article class=categoryImg>
+            <a href="#farm">
+                <img class="categoryImg" src="./images/homepage/u21.jpg">
+                <div class="catDesc">farm</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#sunset">
+                <img class="categoryImg" src="./images/homepage/u22.jpg">
+                <div class="catDesc">sunset</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#prairie">
+                <img class="categoryImg" src="./images/homepage/u3.jpg">
+                <div class="catDesc">prairie</div>
+            </a>
+        </article>
+        <!--Row 4-->
+        <article class=categoryImg>
+            <a href="#urban">
+                <img class="categoryImg" src="./images/homepage/u23.jpg">
+                <div class="catDesc">urban</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#people">
+                <img class="categoryImg" src="./images/homepage/u2.jpg">
+                <div class="catDesc">people</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#waterfall">
+                <img class="categoryImg" src="./images/homepage/u24.jpg">
+                <div class="catDesc">waterfall</div>
+            </a>
+        </article>
+        <!--Row 5-->
+        <article class=categoryImg>
+            <a href="#night">
+                <img class="categoryImg" src="./images/homepage/u25.jpg">
+                <div class="catDesc">night</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#plant">
+                <img class="categoryImg" src="./images/homepage/u26.jpg">
+                <div class="catDesc">plant</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#animal">
+                <img class="categoryImg" src="./images/homepage/u27.jpg">
+                <div class="catDesc">animal</div>
+            </a>
+        </article>
+    </section>
     <section class="footerImg">
         <!--image added via CSS-->
         </section>
@@ -56,6 +206,7 @@
                 &#169; Cross Canada Views 2021
             </article>
             </section>
-    </footer>
+        </footer>
 </body>
+
 </html>
