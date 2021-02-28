@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>This is my first demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homepage</title>
+    <meta name="description" content="Photo Gallery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="./images/plant.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <!-- Navigation Menu START-->
+    <nav>
+    <ul class="nav-links">
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+        <section class="dropdown-content">
+            <a href="#">Mountain</a>
+            <a href="#">Forest</a>       
+            <a href="#">Ocean</a>
+            <a href="#">Autumn</a>
+            <a href="#">Valley</a>
+            <a href="#">Snow</a>
+            <a href="#">Farm</a>
+            <a href="#">Sunset</a>
+            <a href="#">Prairie</a>
+            <a href="#">Urban</a>
+            <a href="#">People</a>
+            <a href="#">Sunset</a>
+            <a href="#">Waterfall</a>
+            <a href="#">Night</a>
+            <a href="#">Plant</a>
+            <a href="#">Animal</a>
+        </section>
+        </li>
+        <section class="aboutUs"></section>
+        <li><a href="aboutus.html" target="_blank">About</a></li>
+        <li><a href="contactus.html" target="_blank">Contact</a></li>
+    </ul>
+    </nav>
     <style>
-        .header {
-        padding: 50px;
-        text-align: center;
-        background: grey;
-        color: white;
-        font-size: 30px;
-        }
-        h1{
-            color: black; text-transform:capitalize; font-style: italic;
-        }
-        button {
-	    border: none;
-	    outline: none;
-        font-size: small;
-	    padding: 10px;
-	    border-radius: 50px;
-	    color: #333;
-	    background: red;
-	    cursor: pointer;
-        }
-    </style>
-    <main>
-    <style>
-        ul {
+         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #333;
           }
           
         li {
@@ -73,117 +88,124 @@
             display: block
         }
     </style>
-    <style>
-        section {
-            text-align: center;
-            border: 2px solid #ccc
-            padding: 2px ;
-            display: flex;
-            justify-content: space-between ;  
-            background-color: grey ;
-        }
-        a:link {
-            text-transform: uppercase;
-        }
-    </style>
-    <style>
-        footer {
-            text-align: left;
-            padding: 10px;
-            background-color:#333;
-            color: white;
-            width: 200; height: 300;
-        }
-    </style>           
-    <ul>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Gallery</a>
-      <div class="dropdown-content">
-        <a href="#">Mountain</a>
-        <a href="#">Plant</a>       
-        <a href="#">Landscape</a>
-        <a href="#">Sunset</a>
-        <a href="#">Trees</a>
-        <a href="#">Forest</a>
-        <a href="#">Valley</a>
-      </div>
-    </li>
-    <li><a href="#About" target="_blank">About</a></li>
-    <li><a href="#Contact" target="_blank">Contact</a></li>
-    </ul>
-    <header>
-        <div class="header">
-        <h1>Just a demo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Mọi hạnh phúc, thành công đều cần sự trả giá nhất định. Không sao hết, qua mưa giông sẽ đến ngày nắng đẹp.</p>
-        <button><b>SEE MORE</b>
-        </button>
-        </div>
-    </header>
-    <section 1>
-        <div class="responsive">
-            <a target="_blank" href="images/landscapes/lakelouise.jpg">
-            <img src="images/landscapes/lakelouise.jpg"  width="550" height="400" >
-            <div class="desc">Plant</div>
-            </a>
-        </div>
-        <div class="responsive">
-            <a target="_blank" href="images/mountain/lakelouise.jpg">
-            <img src="images/mountain/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">Landscape</div>
-            </a>
-        </div>
-        <div class="responsive">
-            <a target="_blank" href="images/people/lakelouise.jpg">
-            <img src="images/people/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">People</div>
-            </a>
-        </div>
+    <!-- Navigation Menu END-->
+
+    <section class="heroImg">
+        <section class="heroTxt">
+            <div class="mainTitle1">cross</div>
+            <div class="mainTitle2">canada</div>
+            <div class="mainTitle3">views</div>
+        </section>
     </section>
-    <section 2>
-        <div class="responsive">
-            <a target="_blank" href="images/forest/lakelouise.jpg">
-            <img src="images/forest/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">Forests</div>
+
+
+    <section class="categories">
+        <!--Row 1-->
+        <article class=categoryImg>
+            <a href="#mountain">
+                <img class="categoryImg" src="./images/homepage/u10.jpg">
+                <div class="catDesc">mountain</div>
             </a>
-        </div>
-        <div class="responsive">
-            <a target="_blank" href="images/sunset/lakelouise.jpg">
-            <img src="images/sunset/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">Sunset</div>
-            </a>
-        </div>
-        <div class="responsive">
-            <a target="_blank" href="images/waterfall/lakelouise.jpg">
-                <img src="images/sunset/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">Waterfall</div>
-            </a>
-        </div>
-    </section>
-    <section 3>
-        <div class="responsive">
-            <a target="_blank" href="images/urban/lakelouise.jpg">
-            <img src="images/urban/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">Urban</div>
-            </a>
-        </div>
-        <div class="responsive">
-            <a target="_blank" href="images/trees/lakelouise.jpg">
-            <img src="images/trees/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">Trees</div>
-            </a>
-        </div>
-        <div class="responsive">
-            <a target="_blank" href="images/valley/lakelouise.jpg">
-            <img src="images/valley/lakelouise.jpg"  width="550" height="400">
-            <div class="desc">Valley</div>
-            </a>
-        </div>
-    </section>
-    </main>
-    <footer>
-        <article class="footerTxt"> 
-                &#169; .N.N.2021 
         </article>
-    </footer>    
+        <article class=categoryImg>
+            <a href="#forest">
+                <img class="categoryImg" src="./images/homepage/u14.jpg">
+                <div class="catDesc">forest</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#ocean">
+                <img class="categoryImg" src="./images/homepage/u16.jpg">
+                <div class="catDesc">ocean</div>
+            </a>
+        </article>
+        <!--Row 2-->
+        <aritcle class=categoryImg>
+            <a href="#autumn">
+                <img class="categoryImg" src="./images/homepage/u18.jpg">
+                <div class="catDesc">autumn</div>
+            </a>
+        </aritcle>
+        <article class=categoryImg>
+            <a href="#valley">
+                <img class="categoryImg" src="./images/homepage/u19.jpg">
+                <div class="catDesc">valley</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#snow">
+                <img class="categoryImg" src="./images/homepage/u20.jpg">
+                <div class="catDesc">snow</div>
+            </a>
+        </article>
+        <!--Row 3-->
+        <article class=categoryImg>
+            <a href="#farm">
+                <img class="categoryImg" src="./images/homepage/u21.jpg">
+                <div class="catDesc">farm</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#sunset">
+                <img class="categoryImg" src="./images/homepage/u22.jpg">
+                <div class="catDesc">sunset</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#prairie">
+                <img class="categoryImg" src="./images/homepage/u3.jpg">
+                <div class="catDesc">prairie</div>
+            </a>
+        </article>
+        <!--Row 4-->
+        <article class=categoryImg>
+            <a href="#urban">
+                <img class="categoryImg" src="./images/homepage/u23.jpg">
+                <div class="catDesc">urban</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#people">
+                <img class="categoryImg" src="./images/homepage/u2.jpg">
+                <div class="catDesc">people</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#waterfall">
+                <img class="categoryImg" src="./images/homepage/u24.jpg">
+                <div class="catDesc">waterfall</div>
+            </a>
+        </article>
+        <!--Row 5-->
+        <article class=categoryImg>
+            <a href="#night">
+                <img class="categoryImg" src="./images/homepage/u25.jpg">
+                <div class="catDesc">night</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#plant">
+                <img class="categoryImg" src="./images/homepage/u26.jpg">
+                <div class="catDesc">plant</div>
+            </a>
+        </article>
+        <article class=categoryImg>
+            <a href="#animal">
+                <img class="categoryImg" src="./images/homepage/u27.jpg">
+                <div class="catDesc">animal</div>
+            </a>
+        </article>
+    </section>
+    <section class="footerImg">
+        <!--image added via CSS-->
+        </section>
+         <footer>
+            <section class="footerBar">
+            <article class="footerTxt">
+                &#169; Cross Canada Views 2021
+            </article>
+            </section>
+        </footer>
 </body>
+
 </html>
