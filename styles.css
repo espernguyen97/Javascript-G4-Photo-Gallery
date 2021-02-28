@@ -385,83 +385,77 @@ a:active {
   background-size: cover;
 }
 
-.contactheading {
-  padding: 20px;
-  margin: 2% 4% 2% 33%;
-}
+/* Changes made by Corey start */
 
-.contactbox {
-  width: 30%;
-  padding: 0px 20px 20px 20px;
-  margin: 2% 4% 2% 33%;
+.aboutUsBg{
+  background-image: url("/images/mainbg.jpg");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-
-.contactform {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid grey; 
-  border-radius: 4px;
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical;
-}
-
-.contactsubmit {
-  background-color:black;
-  color: white;
-  border-radius: 4px;
-  border: none;
-  padding: 12px 20px;
-  cursor: pointer;
-}
-
-.contactreset {
-  background-color:darkred;
-  color: white;
-  border-radius: 4px;
-  border: none;
-  padding: 12px 20px;
-  cursor: pointer;
-}
-
-.admintext {
+.aboutUsHeader{
   text-align: center;
-  padding: 12px;
-  margin-bottom: 12px;
+  text-decoration: underline;
+  font-size: 36px;
+  padding: 150px;
+  animation-name: letterspace;
+  animation-duration: 3.6s;
 }
 
-.adminimages {
-  width: 100%;
-  height: 75%;
+@keyframes letterspace{
+  from{opacity: 0;}
+  to{opacity: 1;}
+  from{letter-spacing: -37px;}
+  to{letter-spacing: 0px;}
 }
 
-.admincategories {
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 25vw);
-  grid-gap: 8px;
+.aboutUsParabg{
+  background-color: rgb(245, 234, 218);
+  padding: 40px;
+  padding-bottom: 45px;
+  opacity: 0.8;
+  animation-name: bgslide;
+  animation-duration: 2.2s;
 }
 
-.adminadd {
-  background-color:black;
-  color: white;
-  border-radius: 4px;
-  border: none;
-  padding: 12px 20px;
-  cursor: pointer;
+@keyframes bgslide{
+  from{opacity: 0;}
+  to{opacity: 0.8;}
 }
 
-.admindel {
-  background-color:darkred;
-  color: white;
-  border-radius: 4px;
-  border: none;
-  padding: 12px 20px;
-  cursor: pointer;
+.aboutUsPara{
+  padding: 40px;
+  padding-bottom: 45px;
+  text-align: center;
+  font-size: 29px;
+  opacity: 1;
+  animation-name: fade;
+  animation-duration: 4s;
+  
 }
+.paraLogo{
+  padding-bottom: 55px;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+@keyframes fade{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+a.paraLink{
+  color: #020202;
+  text-decoration: underline;
+}
+a.paraLink:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+/* Changes made by Corey end */
+
+
+
+
