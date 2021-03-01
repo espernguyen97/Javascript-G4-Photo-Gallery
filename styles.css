@@ -420,7 +420,7 @@ a:active {
 }
 
 .aboutUsParabg {
-  background-color: rgb(245, 234, 218);
+  background-color: lightgray;
   padding: 40px;
   padding-bottom: 45px;
   opacity: 0.8;
