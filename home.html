@@ -19,6 +19,7 @@
     <ul class="nav-links">
         <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+        <img id="underline" src="./images/u48.svg"> 
         <section class="dropdown-content">
             <a href="#">Mountain</a>
             <a href="#">Forest</a>       
@@ -38,66 +39,30 @@
             <a href="#">Animal</a>
         </section>
         </li>
-        <section class="aboutUs"></section>
         <li><a href="aboutus.html" target="_blank">About</a></li>
         <li><a href="contactus.html" target="_blank">Contact</a></li>
-        <li><a href="login.html" target="_blank">Log InIn</a></li>
     </ul>
     </nav>
-    <style>
-         ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-          }
-          
-        li {
-            float: left;
-          }
-        li a, .dropbtn {
-            display: inline-block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-          }
-        li a:hover, .dropdown:hover .dropbtn {
-            background-color: red;
-          }
-          
-        li.dropdown {
-            display: inline-block;
-          }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-          }
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-          }
-        .dropdown-content a:hover {background-color: #f1f1f1;}
-        .dropdown:hover .dropdown-content {
-            display: block
-        }
-    </style>
+    
     <!-- Navigation Menu END-->
 
-    <section class="heroImg">
-        <section class="heroTxt">
+    <div class="heroImg">
+            
+        <!-- Script for Hero Image Slideshow -->
+        <script src="slideShow.js"></script>
+        <!-- Script for Hero Image Slideshow -->
+        
+        <!--Define images size/class selector for slideshow-->
+        <img class="slide" name="slide" height="800px" width="1900px">
+        <!--Define images size/class selector for slideshow-->
+
+
+        <div class="heroTxt">
             <div class="mainTitle1">cross</div>
             <div class="mainTitle2">canada</div>
             <div class="mainTitle3">views</div>
-        </section>
-    </section>
+        </div>
+    </div>
 
 
     <section class="categories">
@@ -201,6 +166,27 @@
         <!--image added via CSS-->
         </section>
          <footer>
+         <!-- Login Form-->
+            <form id="login-form">
+                <h1 id="login-header">Login</h1>
+                <br>
+                <section id="login-container">
+                    <label for="username"><b>Username</b></label>
+                    <input type="loginText" name="username" placeholder="Username" required>
+                    <br>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="loginText" name="psw" placeholder="Password" required>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" float>&nbspRemember Me</label>
+                    </label>
+                </section>
+                <button type="button" class="loginButton" ><b>Log In</b></button>
+                <section class="formButton">
+                    <button type="button" class="forgetButton">Forget Password</button>
+                    <span class="psw"></span>
+                    <a href="home.html" target="_blank" >&nbsp&nbspTry Again?</a>
+                </section>
+            </form>
             <section class="footerBar">
             <article class="footerTxt">
                 &#169; Cross Canada Views 2021
@@ -210,3 +196,4 @@
 </body>
 
 </html>
+
