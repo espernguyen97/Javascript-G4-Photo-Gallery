@@ -387,7 +387,7 @@ a:active {
 
 /* Changes made by Corey start */
 
-.aboutUsBg{
+.aboutUsBg {
   background-image: url("/images/mainbg.jpg");
   height: 800px;
   background-position: center;
@@ -395,7 +395,7 @@ a:active {
   background-size: cover;
   position: relative;
 }
-.aboutUsHeader{
+.aboutUsHeader {
   text-align: center;
   text-decoration: underline;
   font-size: 36px;
@@ -404,14 +404,22 @@ a:active {
   animation-duration: 3.6s;
 }
 
-@keyframes letterspace{
-  from{opacity: 0;}
-  to{opacity: 1;}
-  from{letter-spacing: -37px;}
-  to{letter-spacing: 0px;}
+@keyframes letterspace {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  from {
+    letter-spacing: -37px;
+  }
+  to {
+    letter-spacing: 0px;
+  }
 }
 
-.aboutUsParabg{
+.aboutUsParabg {
   background-color: rgb(245, 234, 218);
   padding: 40px;
   padding-bottom: 45px;
@@ -420,12 +428,16 @@ a:active {
   animation-duration: 2.2s;
 }
 
-@keyframes bgslide{
-  from{opacity: 0;}
-  to{opacity: 0.8;}
+@keyframes bgslide {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
 }
 
-.aboutUsPara{
+.aboutUsPara {
   padding: 40px;
   padding-bottom: 45px;
   text-align: center;
@@ -433,23 +445,26 @@ a:active {
   opacity: 1;
   animation-name: fade;
   animation-duration: 4s;
-  
 }
-.paraLogo{
+.paraLogo {
   padding-bottom: 55px;
   animation-name: fade;
   animation-duration: 4s;
 }
-@keyframes fade{
-  from{opacity: 0;}
-  to{opacity: 1;}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-a.paraLink{
+a.paraLink {
   color: #020202;
   text-decoration: underline;
 }
-a.paraLink:hover{
+a.paraLink:hover {
   color: #ff0000;
   text-decoration: underline;
 }
@@ -468,18 +483,18 @@ a.paraLink:hover{
 }
 
 .contactform {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid grey; 
+  width: 100%;
+  padding: 12px;
+  border: 1px solid grey;
   border-radius: 4px;
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical;
 }
 
 .contactsubmit {
-  background-color:black;
+  background-color: black;
   color: white;
   border-radius: 4px;
   border: none;
@@ -488,7 +503,7 @@ a.paraLink:hover{
 }
 
 .contactreset {
-  background-color:darkred;
+  background-color: darkred;
   color: white;
   border-radius: 4px;
   border: none;
@@ -520,7 +535,7 @@ a.paraLink:hover{
 }
 
 .adminadd {
-  background-color:black;
+  background-color: black;
   color: white;
   border-radius: 4px;
   border: none;
@@ -529,13 +544,10 @@ a.paraLink:hover{
 }
 
 .admindel {
-  background-color:darkred;
+  background-color: darkred;
   color: white;
   border-radius: 4px;
   border: none;
   padding: 12px 20px;
   cursor: pointer;
 }
-
-
-
