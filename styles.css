@@ -5,6 +5,12 @@
   font-family: "Lato-Regular", "Lato", sans-serif;
 }
 
+.navSearch {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -84,9 +90,6 @@ button {
   border-left: none;
   cursor: pointer;
 }
-
-
-
 
 .heroImg {
   background-image: url(images/forest/u7.jpg);
