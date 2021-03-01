@@ -16,18 +16,25 @@
         <!-- Navigation Menu START-->
         <nav>
             <ul class="nav-links">
-                <li>
-                    <a href="#gallery">Gallery</a>
-                    <img id="underline" src="./images/u48.svg"> 
+                <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+                <img id="underline" src="./images/u48.svg"> 
+                <section class="dropdown-content">
+                    <a href="#">Mountain</a>
+                    <a href="#">Forest</a>       
+                    <a href="#">Ocean</a>
+                    <a href="#">Autumn</a>
+                    <a href="#">Valley</a>
+                    <a href="#">Snow</a>
+                    <a href="#">Farm</a>
+                    <a href="#">Sunset</a>
+                    <a href="#">Animal</a>
+                </section>
                 </li>
-                <li>
-                    <a href="aboutus.html">About</a>
-                </li>
-                <li>
-                    <a href="contactus.html">Contact</a>
-                </li>
+                <li><a href="aboutus.html" target="_blank">About</a></li>
+                <li><a href="contactus.html" target="_blank">Contact</a></li>
             </ul>
-        </nav>
+            </nav>
         <!-- Navigation Menu END-->       
         
         <div class="heroImg">
@@ -113,6 +120,27 @@
         <!--image added via CSS-->
     </section>
     <footer>
+        <!-- Login Form-->
+        <form id="login-form">
+            <h1 id="login-header">Login</h1>
+            <br>
+            <section id="login-container">
+                <label for="username"><b>Username</b></label>
+                <input type="loginText" name="username" placeholder="Username" required>
+                <br>
+                <label for="psw"><b>Password</b></label>
+                <input type="loginText" name="psw" placeholder="Password" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" float>&nbspRemember Me</label>
+                </label>
+            </section>
+            <button type="button" class="loginButton" ><b>Log In</b></button>
+            <section class="formButton">
+                <button type="button" class="forgetButton"><b>Forget Password</b></button>
+                <span class="psw"></span>
+                <a href="home.html" target="_parent" >&nbsp&nbspTry Again?</a>
+            </section>
+        </form>
         <section class="footerBar">
             <article class="footerTxt">
                 &#169; Cross Canada Views 2021
