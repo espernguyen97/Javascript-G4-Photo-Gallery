@@ -60,11 +60,8 @@ a:active {
 
 input {
   padding: 6px 10px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  font-size: 10px;
+  font-size: 24px;
   border: none;
-  float: left;
 }
 button:hover {
   background: #ccc;
@@ -72,18 +69,206 @@ button:hover {
 
 button {
   float: right;
-  padding: 6px 10px;
-  margin-top: 0px;
+  padding: 6px;
   margin-left: none;
   margin-right: none;
-  margin-bottom: 15px;
   background: #ddd;
-  font-size: 10px;
+  font-size: 24px;
   border-bottom: none;
   border-top: none;
   border-left: none;
   cursor: pointer;
 }
+
+.searchBar {
+  position: relative;
+  left: 485px;
+}
+
+
+.heroImg {
+  background-image: url(images/forest/u7.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroTxt {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #e5e0e0;
+  font-size: 45px;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+}
+
+.mainTitle1 {
+  letter-spacing: 16.5px;
+  margin-bottom: 30px;
+}
+
+.mainTitle2 {
+  letter-spacing: 4px;
+}
+
+.mainTitle3 {
+  letter-spacing: 17px;
+  margin-top: 30px;
+}
+
+.categories {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 25vw);
+  grid-gap: 8px;
+}
+
+.categoryImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categoryImg img:hover {
+  filter: brightness(50%);
+  transition: filter 0.5s ease;
+}
+
+.catDesc {
+  position: relative;
+  bottom: 55px;
+  left: 30px;
+  color: #e5e0e0;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0.9px;
+}
+
+.footerBar {
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #020202;
+  color: #f2f2f2;
+  font-size: 30px;
+}
+
+.footerTxt {
+  text-transform: uppercase;
+  width: 50%;
+  margin-left: 30px;
+  font-size: 12px;
+  letter-spacing: 0.9px;
+  color: #e5e0e0;
+}
+
+.footerImg {
+  background-image: url(images/homepage/u1.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato-Regular", "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #0d0d0d;
+  opacity: 0.952941176470588;
+  color: #f2f2f2;
+  font-size: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  text-transform: uppercase;
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 17px;
+  font-size: 12px;
+  letter-spacing: 0.9px;
+  color: #e5e0e0;
+}
+
+#underline {
+  display: block;
+  width: 100%;
+  margin: 4px -1px; /* top right bottom left*/
+}
+
+ul {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+a:hover {
+  color: #6e6e6e;
+}
+
+a:active {
+  text-decoration: red;
+}
+
+input {
+  padding: 6px;
+  font-size: 24px;
+  border: none;
+  float: left;
+}
+
+button:hover {
+  background: #ccc;
+}
+
+
+
+button {
+  float: right;
+  padding: 6px;
+  margin-left: none;
+  margin-right: none;
+  background: #ddd;
+  font-size: 24px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+.searchBar {
+  position: relative;
+  left: 485px;
+}
+
 
 
 
