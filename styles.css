@@ -30,102 +30,6 @@ nav {
   color: #e5e0e0;
 }
 
-ul {
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-}
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {background-color: whitesmoke;}
-.dropdown:hover .dropdown-content {
-  display: block
-}
-
-#login-container {
-  width: 100%; 
-  padding: 16px; 
-  border: 1px solid grey; 
-  border-radius: 4px;
-  box-sizing: border-box; 
-  margin-top: 10px; 
-  margin-bottom: 10px;
-}
-#login-form {
-  padding: 22px; 
-  margin: 50px;;
-  border-radius: 4px;
-  text-align: center;
-}
-input[type=loginText] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  text-align:center;
-}
-.loginButton {
-  text-align: center; width: 30%; color: #020202 ; border: 1px solid #ccc; padding: 10px 18px;
-  margin: 8px 0;
-}
-.formButton {
-  background-color: #020202;
-  color: #e5e0e0;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-.formButton:hover {
-  opacity: 0.8;
-}
-.forgetButton {
-  padding: 10px 18px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  width: auto;
-  cursor: pointer;
-  background-color: #f44336;
-}
-.span.psw {
-  float: left;
-  padding-top: 16px;
-}
-
 #underline {
   display: block;
   width: 100%;
@@ -483,7 +387,7 @@ a:active {
 
 /* Changes made by Corey start */
 
-.aboutUsBg{
+.aboutUsBg {
   background-image: url("/images/mainbg.jpg");
   height: 800px;
   background-position: center;
@@ -491,7 +395,7 @@ a:active {
   background-size: cover;
   position: relative;
 }
-.aboutUsHeader{
+.aboutUsHeader {
   text-align: center;
   text-decoration: underline;
   font-size: 36px;
@@ -500,15 +404,23 @@ a:active {
   animation-duration: 3.6s;
 }
 
-@keyframes letterspace{
-  from{opacity: 0;}
-  to{opacity: 1;}
-  from{letter-spacing: -37px;}
-  to{letter-spacing: 0px;}
+@keyframes letterspace {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  from {
+    letter-spacing: -37px;
+  }
+  to {
+    letter-spacing: 0px;
+  }
 }
 
-.aboutUsParabg{
-  background-color: rgb(245, 234, 218);
+.aboutUsParabg {
+  background-color: lightgray;
   padding: 40px;
   padding-bottom: 45px;
   opacity: 0.8;
@@ -516,12 +428,16 @@ a:active {
   animation-duration: 2.2s;
 }
 
-@keyframes bgslide{
-  from{opacity: 0;}
-  to{opacity: 0.8;}
+@keyframes bgslide {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
 }
 
-.aboutUsPara{
+.aboutUsPara {
   padding: 40px;
   padding-bottom: 45px;
   text-align: center;
@@ -529,23 +445,26 @@ a:active {
   opacity: 1;
   animation-name: fade;
   animation-duration: 4s;
-  
 }
-.paraLogo{
+.paraLogo {
   padding-bottom: 55px;
   animation-name: fade;
   animation-duration: 4s;
 }
-@keyframes fade{
-  from{opacity: 0;}
-  to{opacity: 1;}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-a.paraLink{
+a.paraLink {
   color: #020202;
   text-decoration: underline;
 }
-a.paraLink:hover{
+a.paraLink:hover {
   color: #ff0000;
   text-decoration: underline;
 }
@@ -564,18 +483,18 @@ a.paraLink:hover{
 }
 
 .contactform {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid grey; 
+  width: 100%;
+  padding: 12px;
+  border: 1px solid grey;
   border-radius: 4px;
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical;
 }
 
 .contactsubmit {
-  background-color:black;
+  background-color: black;
   color: white;
   border-radius: 4px;
   border: none;
@@ -584,7 +503,7 @@ a.paraLink:hover{
 }
 
 .contactreset {
-  background-color:darkred;
+  background-color: darkred;
   color: white;
   border-radius: 4px;
   border: none;
@@ -616,7 +535,7 @@ a.paraLink:hover{
 }
 
 .adminadd {
-  background-color:black;
+  background-color: black;
   color: white;
   border-radius: 4px;
   border: none;
@@ -625,13 +544,10 @@ a.paraLink:hover{
 }
 
 .admindel {
-  background-color:darkred;
+  background-color: darkred;
   color: white;
   border-radius: 4px;
   border: none;
   padding: 12px 20px;
   cursor: pointer;
 }
-
-
-
