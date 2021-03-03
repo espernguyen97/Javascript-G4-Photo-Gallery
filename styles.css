@@ -30,6 +30,112 @@ nav {
   color: #e5e0e0;
 }
 
+ul {
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: whitesmoke;}
+.dropdown:hover .dropdown-content {
+  display: block
+}
+
+#login-container {
+  width: 100%; 
+  padding: 16px; 
+  border: 1px solid grey; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+
+#login-form {
+  padding: 22px; 
+  margin: 50px;;
+  border-radius: 4px;
+  text-align: center;
+}
+
+input[type=loginText] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align:center;
+}
+
+.loginButton {
+  text-align: center; width: 30%; color: #020202 ; border: 1px solid #ccc; padding: 10px 18px;
+  margin: 8px 0;
+}
+
+.formButton {
+  background-color: #020202;
+  color: #e5e0e0;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.formButton:hover {
+  opacity: 0.8;
+}
+
+.forgetButton {
+  padding: 10px 18px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: auto;
+  cursor: pointer;
+  background-color: #f44336;
+}
+
+.span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
 #underline {
   display: block;
   width: 100%;
