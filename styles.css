@@ -5,6 +5,12 @@
   font-family: "Lato-Regular", "Lato", sans-serif;
 }
 
+.navSearch {
+  position: absolute;
+  top: 12px;
+  right: 22px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -169,6 +175,38 @@ a:hover {
 
 a:active {
   text-decoration: red;
+}
+
+
+input {
+  padding: 6px;
+  font-size: 24px;
+  border: none;
+  float: left;
+}
+
+button:hover {
+  background: #ccc;
+}
+
+
+
+button {
+  float: right;
+  padding: 6px;
+  margin-left: none;
+  margin-right: none;
+  background: #ddd;
+  font-size: 24px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+.searchBar {
+  position: relative;
+  left: 485px;
 }
 
 .heroImg {
@@ -373,10 +411,33 @@ a:active {
 }
 
 .galleryPreview {
+  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
   cursor: pointer;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0;
+  /*left: 30px;*/
+  /*right: 60;*/ 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.galleryPreview:hover .overlay {
+  opacity: 1;
 }
 
 .galleryPreview img {
@@ -387,7 +448,7 @@ a:active {
 }
 
 .galleryPreview img:hover {
-  filter: brightness(50%);
+  /*filter: brightness(50%);*/
   transition: filter 0.5s ease;
 }
 
