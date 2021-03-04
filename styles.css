@@ -177,7 +177,6 @@ a:active {
   text-decoration: red;
 }
 
-
 input {
   padding: 6px;
   font-size: 24px;
@@ -188,8 +187,6 @@ input {
 button:hover {
   background: #ccc;
 }
-
-
 
 button {
   float: right;
@@ -205,8 +202,9 @@ button {
 }
 
 .searchBar {
-  position: relative;
-  left: 485px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 7px;
 }
 
 .heroImg {
@@ -418,23 +416,22 @@ button {
   cursor: pointer;
 }
 .overlay {
-  position: absolute; 
+  position: absolute;
   bottom: 0;
   /*left: 30px;*/
-  /*right: 60;*/ 
+  /*right: 60;*/
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1; 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
   width: 100%;
-  transition: .5s ease;
-  opacity:0;
+  transition: 0.5s ease;
+  opacity: 0;
   color: white;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
   text-align: center;
 }
-
 
 .galleryPreview:hover .overlay {
   opacity: 1;
