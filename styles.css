@@ -177,7 +177,7 @@ a:active {
   text-decoration: red;
 }
 
-input {
+.searchinput {
   padding: 6px;
   font-size: 24px;
   border: none;
@@ -188,7 +188,7 @@ button:hover {
   background: #ccc;
 }
 
-button {
+.searchbutton {
   float: right;
   padding: 6px;
   margin-left: none;
