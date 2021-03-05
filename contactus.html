@@ -53,23 +53,23 @@
     <section class="contactbox">
         <form>
             <label for="fname">First Name</label>
-            <input class="contactform" type="text" id="fname" onkeypress="validate();" placeholder="Your name" required>
+            <input class="contactform" type="text" id="fname" oninput="validate();" placeholder="Your name" required>
             <span style="color:red" id="errFname"></span><br><br>
 
             <label for="lname">Last Name</label>
-            <input class="contactform" type="text" id="lname" onkeypress="validate();" placeholder="Your last name" required>
+            <input class="contactform" type="text" id="lname" oninput="validate();" placeholder="Your last name" required>
             <span style="color:red" id="errLname"></span><br><br>
 
             <label for="phone">Phone Number</label>
-            <input class="contactform" type="tel" id="phone" onkeypress="validate();" placeholder="5551231234" required>   
+            <input class="contactform" type="tel" id="phone" oninput="validate();" placeholder="5551231234" required>   
             <span style="color:red" id="errPnumber"></span><br><br>
 
             <label for="email">Email</label>
-            <input class="contactform" type="email" id="email" onkeypress="validate();" placeholder="Your e-mail address" required>
+            <input class="contactform" type="email" id="email" oninput="validate();" placeholder="Your e-mail address" required>
             <span style="color:red" id="errEmail"></span><br><br>
 
             <label for="subject">Comments</label>
-            <textarea class="contactform" id="subject" placeholder="Enter your comments" onkeypress="validate();" required></textarea>
+            <textarea class="contactform" id="subject" placeholder="Enter your comments" oninput="validate();" required></textarea>
             <span style="color:red" id="errComment"></span><br><br>
 
             <input class="contactsubmit" type="submit" id="submit" value="Submit">

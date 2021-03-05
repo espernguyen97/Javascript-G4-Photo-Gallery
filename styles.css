@@ -101,7 +101,7 @@ li.dropdown {
   text-align: center;
 }
 
-input[type="loginText"] {
+.loginbox {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -651,6 +651,10 @@ a.paraLink:hover {
   width: 30%;
   padding: 0px 20px 20px 20px;
   margin: 2% 4% 2% 33%;
+}
+
+.contactbox ::placeholder {
+  font-size: 14px;
 }
 
 .contactform {
