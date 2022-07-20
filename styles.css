@@ -208,7 +208,7 @@ button:hover {
 }
 
 .heroImg {
-  background-image: url(/images/forest/u7.jpg);
+  background-image: url(../images/forest/u7.jpg);
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ button:hover {
 }
 
 .heroImgGalMou {
-  background-image: url(/images/mountain/u114.jpg);
+  background-image: url(../images/mountain/u114.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -231,7 +231,7 @@ button:hover {
 }
 
 .heroImgGalFor {
-  background-image: url(/images/forest/u7.jpg);
+  background-image: url(../images/forest/u7.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -245,7 +245,7 @@ button:hover {
 }
 
 .heroImgGalOce {
-  background-image: url(/images/ocean/pierre-leverrier-k0Ynnf2CbKw-unsplash.jpg);
+  background-image: url(../images/ocean/pierre-leverrier-k0Ynnf2CbKw-unsplash.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -259,7 +259,7 @@ button:hover {
 }
 
 .heroImgGalAut {
-  background-image: url(/images/autumn/sebastian-unrau-CoD2Q92UaEg-unsplash.jpg);
+  background-image: url(../images/autumn/sebastian-unrau-CoD2Q92UaEg-unsplash.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -273,7 +273,7 @@ button:hover {
 }
 
 .heroImgGalVal {
-  background-image: url(/images/valley/jamie-hagan-RWzPBcWVdpw-unsplash.jpg);
+  background-image: url(../images/valley/jamie-hagan-RWzPBcWVdpw-unsplash.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -287,7 +287,7 @@ button:hover {
 }
 
 .heroImgGalSno {
-  background-image: url(/images/snow/wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg);
+  background-image: url(../images/snow/wladislaw-sokolowskij-0vw4InAC-yM-unsplash.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -301,7 +301,7 @@ button:hover {
 }
 
 .heroImgGalFar {
-  background-image: url(/images/farm/alex-wigan-0xO65I5N6Vw-unsplash.jpg);
+  background-image: url(../images/farm/alex-wigan-0xO65I5N6Vw-unsplash.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -315,7 +315,7 @@ button:hover {
 }
 
 .heroImgGalSun {
-  background-image: url(/images/sunset/pexels-sasha-martynov-1212600.jpg);
+  background-image: url(../images/sunset/pexels-sasha-martynov-1212600.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -329,7 +329,7 @@ button:hover {
 }
 
 .heroImgGalAni {
-  background-image: url(/images/animals/pexels-theother-kev-2264552.jpg);
+  background-image: url(../images/animals/pexels-theother-kev-2264552.jpg);
   height: 350px;
   width: 75%;
   margin-top: 20px;
@@ -549,7 +549,7 @@ button:hover {
 }
 
 .footerImg {
-  background-image: url(images/homepage/u1.jpg);
+  background-image: url(./images/homepage/u1.jpg);
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -559,7 +559,7 @@ button:hover {
 /* Changes made by Corey start */
 
 .aboutUsBg {
-  background-image: url("/images/mainbg.jpg");
+  background-image: url(./images/mainbg.jpg);
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
